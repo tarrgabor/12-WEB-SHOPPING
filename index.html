@@ -9,10 +9,19 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <header>
+      ShopSmart
+    </header>
+    <div>
+      <select name="" id=""></select>
+      <select name="" id=""></select>
+      <input type="number">
+      <button onclick="addRow(this)">+</button>
+    </div>
     
-    <button onclick="addRow(this)">+</button>
     
-    <table>
+    
+    <table id="TTable">
         <thead>
           <tr>
             <th>Kategória</th>
@@ -24,21 +33,13 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
-              <button onclick="updateRow(this)">↻</button>
-              <button onclick="deleteRow(this)">-</button>
-            </td>
-          </tr>
+
         </tbody>
       </table>
 
       <script src="js/bootstrap.min.js"></script>
       <script src="js/app.js"></script>
+
+      <p>Összesen:</p>
 </body>
 </html>

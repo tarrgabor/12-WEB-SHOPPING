@@ -1,5 +1,4 @@
 function addRow() {
-    function addRow() {
         var table = document.getElementById("TTable").getElementsByTagName('tbody')[0];
         var newRow = table.insertRow(table.rows.length);
         
@@ -21,7 +20,6 @@ function addRow() {
         cells = newRow.insertCell(5);
         cells.innerHTML = "<button onclick='updateRow(this)'>↻</button> <button onclick='deleteRow(this)'>-</button>";
       }
-  }
 
   function editRow(button) {
     var row = button.parentNode.parentNode;
